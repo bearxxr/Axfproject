@@ -12,7 +12,7 @@ from UserApp.models import AxfUser
 from PIL import Image, ImageFont
 from PIL.ImageDraw import ImageDraw
 from django.utils.six import BytesIO
-from day010 import settings
+from axfproject import settings
 
 def zc(request):
     if request.method == 'GET':
